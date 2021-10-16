@@ -1,0 +1,1963 @@
+Index,ID,Name
+1,age_1,18-25
+2,age_2,26-35
+3,age_3,36-45
+4,age_4,46-55
+5,age_5,56-64
+6,age_6,>64
+7,gender,femal{0}_male{1}
+8,race_1,White
+9,race_2,African American
+10,race_3,Asian
+11,race_4,other race
+12,BMI_0,unknown
+13,BMI_1,<18.5 underweight
+14,BMI_2,18.5-24.9 normal
+15,BMI_3,25.0-29.9 overweight
+16,BMI_4,>30.0 obese
+17,DBP_0,unkonwn
+18,DBP_1,<120 normal
+19,DBP_2,120-139 prehypertension
+20,DBP_3,140-159 stage 1 hypertension
+21,DBP_4,>160 stage 2 hypertension
+22,SBP_0,unkonwn
+23,SBP_1,<80 normal
+24,SBP_2,80-89 prehypertension
+25,SBP_3,90-99 stage 1 hypertension
+26,SBP_4,>100 stage 2 hypertension
+27,Pulse_0,unknown
+28,Pulse_1,<50
+29,Pulse_2,50-65 excellent
+30,Pulse_3,66-80 average
+31,Pulse_4,81-100 poor
+32,Pulse_5,>100
+33,Temperature_0,unkonwn
+34,Temperature_1,< 95.0 Hypothermia
+35,Temperature_2,95.0¨C97.7 low body temperature
+36,Temperature_3, 97.7 ¨C 99.5 Normal
+37,Temperature_4,99.5 ¨C 104.0 Fever
+38,Temperature_5, > 104.0 Hyperpyrexia
+39,Lab0_0,"Albumin,unkonwn"
+40,Lab0_1,"Albumin,less than standard value"
+41,Lab0_2,"Albumin,the standard value"
+42,Lab0_3,"Albumin,more than the standard value"
+43,Lab1_0,"ALT,unkonwn"
+44,Lab1_1,"ALT,less than standard value"
+45,Lab1_2,"ALT,the standard value"
+46,Lab1_3,"ALT,more than the standard value"
+47,Lab2_0,"AST,unkonwn"
+48,Lab2_1,"AST,less than standard value"
+49,Lab2_2,"AST,the standard value"
+50,Lab2_3,"AST,more than the standard value"
+51,Lab3_0,"Ammonia,unkonwn"
+52,Lab3_1,"Ammonia,less than standard value"
+53,Lab3_2,"Ammonia,the standard value"
+54,Lab3_3,"Ammonia,more than the standard value"
+55,Lab4_0,"Calcium,unkonwn"
+56,Lab4_1,"Calcium,less than standard value"
+57,Lab4_2,"Calcium,the standard value"
+58,Lab4_3,"Calcium,more than the standard value"
+59,Lab5_0,"BUN,unkonwn"
+60,Lab5_1,"BUN,less than standard value"
+61,Lab5_2,"BUN,the standard value"
+62,Lab5_3,"BUN,more than the standard value"
+63,Lab6_0,"Bilirubin,unkonwn"
+64,Lab6_1,"Bilirubin,less than standard value"
+65,Lab6_2,"Bilirubin,the standard value"
+66,Lab6_3,"Bilirubin,more than the standard value"
+67,Lab7_0,"CK-MB,unkonwn"
+68,Lab7_1,"CK-MB,less than standard value"
+69,Lab7_2,"CK-MB,the standard value"
+70,Lab7_3,"CK-MB,more than the standard value"
+71,Lab8_0,"CK,unkonwn"
+72,Lab8_1,"CK,less than standard value"
+73,Lab8_2,"CK,the standard value"
+74,Lab8_3,"CK,more than the standard value"
+75,Lab9_0,"Glucose,unkonwn"
+76,Lab9_1,"Glucose,less than standard value"
+77,Lab9_2,"Glucose,the standard value"
+78,Lab9_3,"Glucose,more than the standard value"
+79,Lab10_0,"Lipase,unkonwn"
+80,Lab10_1,"Lipase,less than standard value"
+81,Lab10_2,"Lipase,the standard value"
+82,Lab10_3,"Lipase,more than the standard value"
+83,Lab11_0,"Platelets,unkonwn"
+84,Lab11_1,"Platelets,less than standard value"
+85,Lab11_2,"Platelets,the standard value"
+86,Lab11_3,"Platelets,more than the standard value"
+87,Lab12_0,"Troponin I,unkonwn"
+88,Lab12_1,"Troponin I,less than standard value"
+89,Lab12_2,"Troponin I,the standard value"
+90,Lab12_3,"Troponin I,more than the standard value"
+91,Lab13_0,"WBC,unkonwn"
+92,Lab13_1,"WBC,less than standard value"
+93,Lab13_2,"WBC,the standard value"
+94,Lab13_3,"WBC,more than the standard value"
+95,DRG0,liver transplant'
+96,DRG1,heart &/or lung transplant'
+97,DRG2,bone marrow transplant'
+98,DRG3,trach w/dmv w exten proc'
+99,DRG4,trach w/dmv w/o enten proc'
+100,DRG5,pancreas transplant'
+101,DRG6,craniotomy for trauma'
+102,DRG7,craniotomy exc for trauma'
+103,DRG8,ventricular shunt proc'
+104,DRG9,spinal procedures'
+105,DRG10,extracranial vascular proc'
+106,DRG11,other nervous system proc'
+107,DRG12,spinal disorders & injuries'
+108,DRG13,nervous system neoplasms'
+109,DRG14,degenerative nerv syst dis'
+110,DRG15,mult sclerosis & other'
+111,DRG16,intracranial hemorrhage'
+112,DRG17,cva w infarct'
+113,DRG18,nonspec cva & precereb occl'
+114,DRG19,transient ischemia'
+115,DRG20,peripheral & cranial nerv'
+116,DRG21,bact & tuberculous infec'
+117,DRG22,non-bacterial infections'
+118,DRG23,viral meningitis'
+119,DRG24,nontrauma stupor & coma'
+120,DRG25,seizure'
+121,DRG26,migraine & other headache'
+122,DRG27,head trauma w coma >1 hr'
+123,DRG28,brain contusion/laceration'
+124,DRG29,"concussion, closed skull'"
+125,DRG30,oth disorders nervous sys'
+126,DRG31,orbital procedures'
+127,DRG32,eye procedures except orbit'
+128,DRG33,acute major eye infections'
+129,DRG34,eye disorders exc major inf'
+130,DRG35,maj cranial/facial bone proc'
+131,DRG36,maj larynx & trachea proc'
+132,DRG37,oth maj head & neck proc'
+133,DRG38,facial bone proc exc major'
+134,DRG39,sinus & mastoid proc'
+135,DRG40,cleft lip & palate repair'
+136,DRG41,tonsil & adenoid proc'
+137,DRG42,"oth ear,nose,mouth,throat'"
+138,DRG43,"ear,nose,mouth,throat malig'"
+139,DRG44,vertigo & other labyrinth'
+140,DRG45,infections of up resp tract'
+141,DRG46,dental & oral disease'
+142,DRG47,maj respiratory & chest proc'
+143,DRG48,oth respiratory & chest proc'
+144,DRG49,respiratory system diag'
+145,DRG50,cystic fibrosis'
+146,DRG51,bpd & oth chronic resp dis'
+147,DRG52,pulmonary edema & resp fail'
+148,DRG53,pulmonary embolism'
+149,DRG54,major chest & resp trauma'
+150,DRG55,respiratory malignancy'
+151,DRG56,major respiratory infections'
+152,DRG57,bronchiolitis & rsv pneum'
+153,DRG58,other pneumonia'
+154,DRG59,chronic obstructive pulm dis'
+155,DRG60,asthma'
+156,DRG61,interstitial lung disease'
+157,DRG62,other respiratory diagnoses'
+158,DRG63,resp signs & symptons'
+159,DRG64,maj cardiothoracic repair'
+160,DRG65,cardiac defib & heart assist'
+161,DRG66,cardiac valve proc w/cath'
+162,DRG67,cardiac valve proc w/0 cath'
+163,DRG68,coronary bypass w/card cath'
+164,DRG69,cor bypass w/o card cath'
+165,DRG70,other cardiothoracic proc'
+166,DRG71,maj thoracic & abdomen proc'
+167,DRG72,perm cardiac pacemak w ami'
+168,DRG73,perm card pacemak w/o ami'
+169,DRG74,other vascular procedures'
+170,DRG75,percut cardiovasc proc w/ami'
+171,DRG76,percut cardiovasc w/o ami'
+172,DRG77,card pacemak & defib repl'
+173,DRG78,card pacemak & defib revis'
+174,DRG79,other circulatory system'
+175,DRG80,acute myocardial infarct'
+176,DRG81,card cathet exc ischemia'
+177,DRG82,card cathet w/ischemia'
+178,DRG83,acute & subacute endocard'
+179,DRG84,heart failure'
+180,DRG85,ventricular fibrillation'
+181,DRG86,peripheral & oth vasc dis'
+182,DRG87,angina pect & coronary ath'
+183,DRG88,hypertension'
+184,DRG89,card struct & valve dis'
+185,DRG90,card arrhythmia & conduction'
+186,DRG91,chest pain'
+187,DRG92,syncope & collapse'
+188,DRG93,cardiomyopathy'
+189,DRG94,comp cardiac/vasc device'
+190,DRG95,oth circulatory system diag'
+191,DRG96,"maj stom, esoph,duod proc'"
+192,DRG97,maj small & large bowel proc'
+193,DRG98,"minor stom,esoph,duod proc'"
+194,DRG99,oth small & large bowel proc'
+195,DRG100,peritoneal adhesiolysis'
+196,DRG101,appendectomy'
+197,DRG102,anal procedures'
+198,DRG103,hernia proc exc inguinal/fem'
+199,DRG104,"ing, fem & umbil hernia proc'"
+200,DRG105,oth digest sys & abdom proc'
+201,DRG106,digestive malignancy'
+202,DRG107,peptic ulcer & gastritis'
+203,DRG108,major esophageal disorder'
+204,DRG109,other esophageal disorder'
+205,DRG110,diverticulitis & divertic'
+206,DRG111,inflammatory bowel disease'
+207,DRG112,gi vascular insufficiency'
+208,DRG113,intestinal obstruction'
+209,DRG114,major gi infections'
+210,DRG115,non-bacterial gi'
+211,DRG116,abdominal pain'
+212,DRG117,"malfunction, react gi device'"
+213,DRG118,oth/unspec gi hemorrhage'
+214,DRG119,oth digestive system diag'
+215,DRG120,maj pancreas/liver/shunt proc'
+216,DRG121,major biliary tract proc'
+217,DRG122,cholecystectomy exc lap'
+218,DRG123,lap cholecystectomy'
+219,DRG124,oth hepatobili/pancreas proc'
+220,DRG125,hepatic coma/oth maj liv dis'
+221,DRG126,alcoholic liver disease'
+222,DRG127,malignancy-hepatobilia sys'
+223,DRG128,pancreas disord exc malig'
+224,DRG129,other disorders of liver'
+225,DRG130,disorders of gallbladder'
+226,DRG131,hip joint replacement'
+227,DRG132,knee joint replacement'
+228,DRG133,dorsal/lumbar fusion proc'
+229,DRG134,dor/ lumb fus exc crv bck'
+230,DRG135,amputation of lower limb'
+231,DRG136,hip & femur proc traum'
+232,DRG137,hip & femur proc nontrauma'
+233,DRG138,intervertebral disc excision'
+234,DRG139,"skin graft, except hand'"
+235,DRG140,knee & lower leg proc'
+236,DRG141,foot & toe procedures'
+237,DRG142,"shoulder,up arm,forearm proc'"
+238,DRG143,hand & wrist procedures'
+239,DRG144,tendon/muscle/soft tiss proc'
+240,DRG145,oth musculoskeletal proc'
+241,DRG146,cerv spinal fus & oth neck'
+242,DRG147,fracture of femur'
+243,DRG148,fx pelvis/hip dislocation'
+244,DRG149,fx/dislocation exc femur'
+245,DRG150,musculoskeletal malig'
+246,DRG151,osteomyelitis'
+247,DRG152,connective tissue disorder'
+248,DRG153,back & neck disorders'
+249,DRG154,malf/react/comp orth dev'
+250,DRG155,oth musculoskeletal sys dx'
+251,DRG156,skin graft-skin & subcu dx'
+252,DRG157,mastectomy procedures'
+253,DRG158,breast proc exc mastectomy'
+254,DRG159,other skin & subcut proc'
+255,DRG160,skin ulcers'
+256,DRG161,major skin disorders'
+257,DRG162,malignant breast disorders'
+258,DRG163,cellulitis & other bact inf'
+259,DRG164,contusion/open wound skin'
+260,DRG165,oth skin/subcut/breast dis'
+261,DRG166,pituitary & adrenal proc'
+262,DRG167,procedures for obesity'
+263,DRG168,thyroid/parathyroid proc'
+264,DRG169,oth proc for endocrine dx'
+265,DRG170,diabetes'
+266,DRG171,malnutrition disorders'
+267,DRG172,hypovolemia/electrolyte dis'
+268,DRG173,inborn errors metabolism'
+269,DRG174,oth endocrine disorders'
+270,DRG175,electrolyte dis exc hypovol'
+271,DRG176,kidney transplant'
+272,DRG177,major bladder proc'
+273,DRG178,kidney/urinary tract malig'
+274,DRG179,kidney/urin tract-nonmalig'
+275,DRG180,renal dialysis access dev'
+276,DRG181,other bladder proc'
+277,DRG182,urethral & transureth proc'
+278,DRG183,oth kidney/urinary tract proc'
+279,DRG184,renal failure'
+280,DRG185,nephritis'
+281,DRG186,kidney/urin tract infect'
+282,DRG187,urinary stones & acq obstruc'
+283,DRG188,malf/reac/comp gu device'
+284,DRG189,oth kidney/urinary tract dx'
+285,DRG190,major male pelvic proc'
+286,DRG191,penis procedures'
+287,DRG192,transurethral prostatectomy'
+288,DRG193,testes & scrotal proc'
+289,DRG194,other male reprod syst proc'
+290,DRG195,"malignancy, male repro sys'"
+291,DRG196,male reproductive system dx'
+292,DRG197,pelvic evisc/hysterectomy'
+293,DRG198,uter/adnex proc for malig'
+294,DRG199,uter/adnex proc - non mal'
+295,DRG200,uter/adnex exc leiomyoma'
+296,DRG201,female reproductive sys proc'
+297,DRG202,dilation & curettage'
+298,DRG203,other female repro sys proc'
+299,DRG204,uterine/adnexa procedures'
+300,DRG205,female repro syst malig'
+301,DRG206,female repro syst infection'
+302,DRG207,menstrual/other female dx'
+303,DRG208,cesarean delivery'
+304,DRG209,vaginal delivery w steril'
+305,DRG210,vaginal delivery w compli'
+306,DRG211,"d&c, aspiration curettage'"
+307,DRG212,ectopic pregnancy proc'
+308,DRG213,oth o.r. proc for obstetrics'
+309,DRG214,vaginal delivery'
+310,DRG215,postpartum & post abortion'
+311,DRG216,threatened abortion'
+312,DRG217,"abort w/o d&c, asp curet'"
+313,DRG218,false labor'
+314,DRG219,other antepartum diagnoses'
+315,DRG220,"neo,trans <5d not born here'"
+316,DRG221,"neo,trans <5d born here'"
+317,DRG222,neonate with ecmo'
+318,DRG223,neo bwt<1500g w/maj proc'
+319,DRG224,neo bwt<500g/gest age<24w'
+320,DRG225,neo bwt 500-749g wo/maj'
+321,DRG226,neo bwt 750-999g wo/maj'
+322,DRG227,neo bwt 1000-1249g w/rds'
+323,DRG228,neo bwt 1000-1249g oth sig'
+324,DRG229,neo bwt 1250-1499g w/rds'
+325,DRG230,neo bwt 1250-1499g oth sig'
+326,DRG231,neo bwt 1500-2499g w/maj'
+327,DRG232,neo bwt 1500-1999g maj anom'
+328,DRG233,neo bwt 1500-1999g w/rds'
+329,DRG234,neo bwt 1500-1999g perin inf'
+330,DRG235,neo bwt 1500-1999g oth sig'
+331,DRG236,neo bwt 2000-2499g w/anom'
+332,DRG237,neo bwt 2000-2499g w/rds'
+333,DRG238,neo bwt 2000-2499g perin inf'
+334,DRG239,neo bwt 2000-2499g oth sig'
+335,DRG240,neo bwt 2000-2499g normal nb'
+336,DRG241,neo bwt>2499g maj cv proc'
+337,DRG242,neo bwt>2499g w/maj proc'
+338,DRG243,neo bwt>2499g w/anom'
+339,DRG244,neo bwt>2499g w/rds'
+340,DRG245,neo bwt>2499g perin inf'
+341,DRG246,neo bwt >2499g oth sig cond'
+342,DRG247,neo bwt >2499g normal nb'
+343,DRG248,splenectomy'
+344,DRG249,other procedures of blood'
+345,DRG250,maj hematologic/immunol dx'
+346,DRG251,coagulation disorders'
+347,DRG252,sickle cell anemia crisis'
+348,DRG253,other anemia/blood disord'
+349,DRG254,maj proc lymph/hemat/neopl'
+350,DRG255,oth proc lymph/hemat/neopl'
+351,DRG256,acute leukemia'
+352,DRG257,lymph/myelo/non-ac leuk'
+353,DRG258,radiotherapy'
+354,DRG259,chemotherapy'
+355,DRG260,lymph & oth malig & neopl'
+356,DRG261,infect & parasitic disease'
+357,DRG262,post-op/trauma infect proc'
+358,DRG263,septicemia & dissem infect'
+359,DRG264,post-op/post-traum infec'
+360,DRG265,fever'
+361,DRG266,viral illness'
+362,DRG267,oth infect & parasitic dis'
+363,DRG268,mental illness diag'
+364,DRG269,schizophrenia'
+365,DRG270,major depressive disorder'
+366,DRG271,disorders of personality'
+367,DRG272,bipolar disorders'
+368,DRG273,depression exc maj disorder'
+369,DRG274,adjust dis exc depressive dx'
+370,DRG275,acute anxiety & delirium'
+371,DRG276,organic mental health dis'
+372,DRG277,childhood behavioral dis'
+373,DRG278,eating disorders'
+374,DRG279,oth mental health disorder'
+375,DRG280,drug & alcohol abuse'
+376,DRG281,alcohol/drug dep w rehab'
+377,DRG282,opioid abuse & dependence'
+378,DRG283,cocaine abuse & dependence'
+379,DRG284,alcohol abuse & dependence'
+380,DRG285,other drug abuse & depend'
+381,DRG286,o.r. proc oth comp treat'
+382,DRG287,allergic reactions'
+383,DRG288,poisoning medicinal agent'
+384,DRG289,oth comp of treatment'
+385,DRG290,oth inj/ poison/toxic dx'
+386,DRG291,toxic effects of non-medc'
+387,DRG292,exten 3rd deg burn w graft'
+388,DRG293,full thick burns w graft'
+389,DRG294,extens 3rd deg/full thick'
+390,DRG295,part thick burns'
+391,DRG296,proc w diag of rehab'
+392,DRG297,rehabilitation'
+393,DRG298,signs/symptons/oth factors'
+394,DRG299,oth aftercare & convales'
+395,DRG300,neonatal aftercare'
+396,DRG301,HIV w multiple major HIV'
+397,DRG302,HIV w major HIV rel cond'
+398,DRG303,HIV w multiple sign HIV cond'
+399,DRG304,HIV w one signif HIV cond'
+400,DRG305,craniotomy mult sig trauma'
+401,DRG306,ext abd/thorac proc for mst'
+402,DRG307,oth proc mult sig trauma'
+403,DRG308,multiple sig trauma w/o proc'
+404,DRG309,extensive proc unrel pdx'
+405,DRG310,mod extensive proc unrel pdx'
+406,DRG311,nonextensive proc unrel pdx'
+407,DRG312,principal diagnosis invald as disch dx'
+408,DRG313,ungroupable'
+409,DRG314,unknown
+410,CCS0,Nervous system congenital anomalies
+411,CCS1,Other congenital anomalies
+412,CCS2,Digestive congenital anomalies
+413,CCS3,Genitourinary congenital anomalies
+414,CCS4,Other bone disease and musculoskeletal deformities
+415,CCS5,Cardiac and circulatory congenital anomalies
+416,CCS6,Systemic lupus erythematosus and connective tissue disorders
+417,CCS7,Other connective tissue disease
+418,CCS8,Inflammatory conditions of male genital organs
+419,CCS9,Screening and history of mental health and substance abuse codes
+420,CCS10,Suicide and intentional self-inflicted injury
+421,CCS11,Substance-related disorders
+422,CCS12,Short gestation; low birth weight; and fetal growth retardation
+423,CCS13,Other lower respiratory disease
+424,CCS14,Spinal cord injury
+425,CCS15,Respiratory failure; insufficiency; arrest (adult)
+426,CCS16,Pleurisy; pneumothorax; pulmonary collapse
+427,CCS17,Diseases of mouth; excluding dental
+428,CCS18,Disorders of teeth and jaw
+429,CCS19,Intestinal infection
+430,CCS20,Other upper respiratory disease
+431,CCS21,Gastroduodenal ulcer (except hemorrhage)
+432,CCS22,Esophageal disorders
+433,CCS23,Conditions associated with dizziness or vertigo
+434,CCS24,Cancer of breast
+435,CCS25,Cancer of uterus
+436,CCS26,Cancer of cervix
+437,CCS27,Other perinatal conditions
+438,CCS28,Cancer; other respiratory and intrathoracic
+439,CCS29,Cancer of bone and connective tissue
+440,CCS30,Melanomas of skin
+441,CCS31,Other non-epithelial cancer of skin
+442,CCS32,Calculus of urinary tract
+443,CCS33,Cancer of other female genital organs
+444,CCS34,Cancer of prostate
+445,CCS35,Other ear and sense organ disorders
+446,CCS36,Mycoses
+447,CCS37,Other infections; including parasitic
+448,CCS38,Genitourinary symptoms and ill-defined conditions
+449,CCS39,Miscellaneous mental health disorders
+450,CCS40,Hemorrhoids
+451,CCS41,Other diseases of veins and lymphatics
+452,CCS42,Pneumonia (except that caused by tuberculosis or sexually transmitted disease)
+453,CCS43,Influenza
+454,CCS44,Acute and chronic tonsillitis
+455,CCS45,Acute bronchitis
+456,CCS46,Other upper respiratory infections
+457,CCS47,Chronic obstructive pulmonary disease and bronchiectasis
+458,CCS48,Asthma
+459,CCS49,Aspiration pneumonitis; food/vomitus
+460,CCS50,Alcohol-related disorders
+461,CCS51,Intrauterine hypoxia and birth asphyxia
+462,CCS52,Deficiency and other anemia
+463,CCS53,Other nutritional; endocrine; and metabolic disorders
+464,CCS54,Lung disease due to external agents
+465,CCS55,Fluid and electrolyte disorders
+466,CCS56,Gout and other crystal arthropathies
+467,CCS57,Immunity disorders
+468,CCS58,Cystic fibrosis
+469,CCS59,Other endocrine disorders
+470,CCS60,Coagulation and hemorrhagic disorders
+471,CCS61,Disorders of lipid metabolism
+472,CCS62,Nutritional deficiencies
+473,CCS63,Diseases of white blood cells
+474,CCS64,Inflammation; infection of eye (except that caused by tuberculosis or sexually transmitteddisease)
+475,CCS65,Hyperplasia of prostate
+476,CCS66,Diverticulosis and diverticulitis
+477,CCS67,Chronic ulcer of skin
+478,CCS68,Other inflammatory condition of skin
+479,CCS69,Anal and rectal conditions
+480,CCS70,Other complications of birth; puerperium affecting management of mother
+481,CCS71,Skin and subcutaneous tissue infections
+482,CCS72,Other pregnancy and delivery including normal
+483,CCS73,Polyhydramnios and other problems of amniotic cavity
+484,CCS74,Regional enteritis and ulcerative colitis
+485,CCS75,OB-related trauma to perineum and vulva
+486,CCS76,Diabetes mellitus with complications
+487,CCS77,Aortic; peripheral; and visceral artery aneurysms
+488,CCS78,Peripheral and visceral atherosclerosis
+489,CCS79,Other circulatory disease
+490,CCS80,Intestinal obstruction without hernia
+491,CCS81,Other and ill-defined cerebrovascular disease
+492,CCS82,Occlusion or stenosis of precerebral arteries
+493,CCS83,Late effects of cerebrovascular disease
+494,CCS84,Transient cerebral ischemia
+495,CCS85,Paralysis
+496,CCS86,Epilepsy; convulsions
+497,CCS87,Multiple sclerosis
+498,CCS88,Other hereditary and degenerative nervous system conditions
+499,CCS89,Varicose veins of lower extremity
+500,CCS90,Phlebitis; thrombophlebitis and thromboembolism
+501,CCS91,Headache; including migraine
+502,CCS92,Abdominal hernia
+503,CCS93,Female infertility
+504,CCS94,Pathological fracture
+505,CCS95,Menopausal disorders
+506,CCS96,Osteoporosis
+507,CCS97,Ovarian cyst
+508,CCS98,Cancer of ovary
+509,CCS99,Bacterial infection; unspecified site
+510,CCS100,Spontaneous abortion
+511,CCS101,Menstrual disorders
+512,CCS102,Viral infection
+513,CCS103,Otitis media and related conditions
+514,CCS104,Prolapse of female genital organs
+515,CCS105,Liveborn
+516,CCS106,E Codes: Fire/burn
+517,CCS107,E Codes: Firearm
+518,CCS108,E Codes: Machinery
+519,CCS109,E Codes: Motor vehicle traffic (MVT)
+520,CCS110,E Codes: Cut/pierceb
+521,CCS111,E Codes: Drowning/submersion
+522,CCS112,E Codes: Fall
+523,CCS113,E Codes: Pedal cyclist; not MVT
+524,CCS114,Joint disorders and dislocations; trauma-related
+525,CCS115,E Codes: Pedestrian; not MVT
+526,CCS116,Syncope
+527,CCS117,Other injuries and conditions due to external causes
+528,CCS118,Congestive heart failure; nonhypertensive
+529,CCS119,Fever of unknown origin
+530,CCS120,Poisoning by psychotropic agents
+531,CCS121,Burns
+532,CCS122,Poisoning by nonmedicinal substances
+533,CCS123,Poisoning by other medications and drugs
+534,CCS124,Nonspecific chest pain
+535,CCS125,Pulmonary heart disease
+536,CCS126,Acute myocardial infarction
+537,CCS127,Coronary atherosclerosis and other heart disease
+538,CCS128,Shock
+539,CCS129,Cardiac arrest and ventricular fibrillation
+540,CCS130,Other and ill-defined heart disease
+541,CCS131,Conduction disorders
+542,CCS132,Prolonged pregnancy
+543,CCS133,Leukemias
+544,CCS134,Non-Hodgkin`s lymphoma
+545,CCS135,Cancer of kidney and renal pelvis
+546,CCS136,Cancer of bladder
+547,CCS137,Cancer of other male genital organs
+548,CCS138,Cancer of testis
+549,CCS139,Hodgkin`s disease
+550,CCS140,Lymphadenitis
+551,CCS141,Cancer of brain and nervous system
+552,CCS142,Cancer of other urinary organs
+553,CCS143,"Attention-deficit, conduct, and disruptive behavior disorders"
+554,CCS144,Acute cerebrovascular disease
+555,CCS145,Other complications of pregnancy
+556,CCS146,E Codes: Adverse effects of medical drugs
+557,CCS147,E Codes: Adverse effects of medical care
+558,CCS148,E Codes: Suffocation
+559,CCS149,E Codes: Struck by; against
+560,CCS150,E Codes: Poisoning
+561,CCS151,E Codes: Overexertion
+562,CCS152,E Codes: Natural/environment
+563,CCS153,E Codes: Transport; not MVT
+564,CCS154,Birth trauma
+565,CCS155,Contraceptive and procreative management
+566,CCS156,E Codes: Other specified; NEC
+567,CCS157,E Codes: Other specified and classifiable
+568,CCS158,Acute posthemorrhagic anemia
+569,CCS159,Sickle cell anemia
+570,CCS160,Other screening for suspected conditions (not mental disorders or infectious disease)
+571,CCS161,Residual codes; unclassified
+572,CCS162,Other hematologic conditions
+573,CCS163,Induced abortion
+574,CCS164,Malaise and fatigue
+575,CCS165,Allergic reactions
+576,CCS166,Nausea and vomiting
+577,CCS167,Abdominal pain
+578,CCS168,Medical examination/evaluation
+579,CCS169,Other aftercare
+580,CCS170,Rehabilitation care; fitting of prostheses; and adjustment of devices
+581,CCS171,Administrative/social admission
+582,CCS172,Hemorrhage during pregnancy; abruptio placenta; placenta previa
+583,CCS173,Hemolytic jaundice and perinatal jaundice
+584,CCS174,Hypertension complicating pregnancy; childbirth and the puerperium
+585,CCS175,Cardiac dysrhythmias
+586,CCS176,Other female genital disorders
+587,CCS177,Ectopic pregnancy
+588,CCS178,Gangrene
+589,CCS179,"Impulse control disorders, NEC"
+590,CCS180,Mood disorders
+591,CCS181,Developmental disorders
+592,CCS182,Septicemia (except in labor)
+593,CCS183,Other diseases of bladder and urethra
+594,CCS184,"Delirium, dementia, and amnestic and other cognitive disorders"
+595,CCS185,Adjustment disorders
+596,CCS186,Anxiety disorders
+597,CCS187,Diabetes or abnormal glucose tolerance complicating pregnancy; childbirth; or the puerperium
+598,CCS188,Fetopelvic disproportion; obstruction
+599,CCS189,Previous C-section
+600,CCS190,Personality disorders
+601,CCS191,Schizophrenia and other psychotic disorders
+602,CCS192,E Codes: Unspecified
+603,CCS193,E Codes: Place of occurrence
+604,CCS194,Early or threatened labor
+605,CCS195,Hepatitis
+606,CCS196,Appendicitis and other appendiceal conditions
+607,CCS197,Fetal distress and abnormal forces of labor
+608,CCS198,Hypertension with complications and secondary hypertension
+609,CCS199,Essential hypertension
+610,CCS200,Inflammatory diseases of female pelvic organs
+611,CCS201,Endometriosis
+612,CCS202,Fracture of upper limb
+613,CCS203,Skull and face fractures
+614,CCS204,Other eye disorders
+615,CCS205,Fracture of neck of femur (hip)
+616,CCS206,Other male genital disorders
+617,CCS207,Nonmalignant breast conditions
+618,CCS208,Other nervous system disorders
+619,CCS209,Other diseases of kidney and ureters
+620,CCS210,Peri-; endo-; and myocarditis; cardiomyopathy (except that caused by tuberculosis or sexually transmitted disease)
+621,CCS211,Heart valve disorders
+622,CCS212,Cancer of head and neck
+623,CCS213,Immunizations and screening for infectious disease
+624,CCS214,Cancer of stomach
+625,CCS215,Cancer of esophagus
+626,CCS216,Cancer of rectum and anus
+627,CCS217,Cancer of colon
+628,CCS218,Cancer of pancreas
+629,CCS219,Cancer of liver and intrahepatic bile duct
+630,CCS220,Cancer of bronchus; lung
+631,CCS221,Cancer of other GI organs; peritoneum
+632,CCS222,Glaucoma
+633,CCS223,Blindness and vision defects
+634,CCS224,Umbilical cord complication
+635,CCS225,Other liver diseases
+636,CCS226,Gastrointestinal hemorrhage
+637,CCS227,Pancreatic disorders (not diabetes)
+638,CCS228,Other gastrointestinal disorders
+639,CCS229,Noninfectious gastroenteritis
+640,CCS230,Acute and unspecified renal failure
+641,CCS231,Nephritis; nephrosis; renal sclerosis
+642,CCS232,Urinary tract infections
+643,CCS233,Chronic kidney disease
+644,CCS234,Cancer of thyroid
+645,CCS235,Aortic and peripheral arterial embolism or thrombosis
+646,CCS236,Complications of surgical procedures or medical care
+647,CCS237,Superficial injury; contusion
+648,CCS238,Crushing injury or internal injury
+649,CCS239,Open wounds of head; neck; and trunk
+650,CCS240,Open wounds of extremities
+651,CCS241,Complication of device; implant or graft
+652,CCS242,Fracture of lower limb
+653,CCS243,Other fractures
+654,CCS244,Sprains and strains
+655,CCS245,Intracranial injury
+656,CCS246,Thyroid disorders
+657,CCS247,Diabetes mellitus without complication
+658,CCS248,Benign neoplasm of uterus
+659,CCS249,Cataract
+660,CCS250,Neoplasms of unspecified nature or uncertain behavior
+661,CCS251,Maintenance chemotherapy; radiotherapy
+662,CCS252,Secondary malignancies
+663,CCS253,Malignant neoplasm without specification of site
+664,CCS254,Multiple myeloma
+665,CCS255,Retinal detachments; defects; vascular occlusion; and retinopathy
+666,CCS256,Tuberculosis
+667,CCS257,HIV infection
+668,CCS258,Sexually transmitted infections (not HIV or hepatitis)
+669,CCS259,Coma; stupor; and brain damage
+670,CCS260,Infective arthritis and osteomyelitis (except that caused by tuberculosis or sexually transmitted disease)
+671,CCS261,Other skin disorders
+672,CCS262,Osteoarthritis
+673,CCS263,Rheumatoid arthritis and related disease
+674,CCS264,Spondylosis; intervertebral disc disorders; other back problems
+675,CCS265,Other non-traumatic joint disorders
+676,CCS266,Gastritis and duodenitis
+677,CCS267,Other disorders of stomach and duodenum
+678,CCS268,Other acquired deformities
+679,CCS269,Acquired foot deformities
+680,CCS270,Peritonitis and intestinal abscess
+681,CCS271,Biliary tract disease
+682,CCS272,Encephalitis (except that caused by tuberculosis or sexually transmitted disease)
+683,CCS273,Meningitis (except that caused by tuberculosis or sexually transmitted disease)
+684,CCS274,"Disorders usually diagnosed in infancy, childhood, or adolescence"
+685,CCS275,Parkinson`s disease
+686,CCS276,Other CNS infection and poliomyelitis
+687,CCS277,Cancer; other and unspecified primary
+688,CCS278,Other and unspecified benign neoplasm
+689,CCS279,Malposition; malpresentation
+690,MED0,lithium carbonate
+691,MED1,pentostatin
+692,MED2,ospemifene
+693,MED3,oxybutynin
+694,MED4,chondroitin sulfates
+695,MED5,echinacea angustifolia root xt
+696,MED6,desflurane
+697,MED7,acyclovir
+698,MED8,methyltestosterone
+699,MED9,terazosin
+700,MED10,fesoterodine
+701,MED11,gotu kola extract
+702,MED12,oxycodone
+703,MED13,levoleucovorin
+704,MED14,trastuzumab
+705,MED15,dithranol
+706,MED16,abciximab
+707,MED17,lactulose
+708,MED18,evolocumab
+709,MED19,"1, 24"
+710,MED20,ibrutinib
+711,MED21,plerixafor
+712,MED22,krill oil
+713,MED23,pegvisomant
+714,MED24,varenicline
+715,MED25,dipotassium hydrogen phosphate
+716,MED26,sulfamethoxazole
+717,MED27,procainamide
+718,MED28,febuxostat
+719,MED29,ferrous fumarate
+720,MED30,phenothiazine
+721,MED31,methylsulfonylmethane
+722,MED32,potassium iodide
+723,MED33,soy germ
+724,MED34,idelalisib
+725,MED35,bosutinib
+726,MED36,blinatumomab
+727,MED37,ginkgo biloba extract
+728,MED38,pethidine
+729,MED39,telmisartan
+730,MED40,shark liver oil
+731,MED41,bisacodyl
+732,MED42,apremilast
+733,MED43,zidovudine
+734,MED44,rutoside
+735,MED45,cortisone
+736,MED46,tocopherol (vit e)
+737,MED47,urea
+738,MED48,atenolol
+739,MED49,verapamil
+740,MED50,fluoxetine
+741,MED51,citalopram
+742,MED52,pseudoephedrine
+743,MED53,glimepiride
+744,MED54,sennosides
+745,MED55,"4-((4,6-bis(octylthio)-1,3,5-triazin-2-yl)amino)-2,6-bis(1,1-dimethylethyl)-phenol"
+746,MED56,insulin zinc pork purified
+747,MED57,riluzole
+748,MED58,pegaptanib
+749,MED59,icosapent ethyl
+750,MED60,thonzonium
+751,MED61,theanine
+752,MED62,deferoxamine
+753,MED63,bismuth subcitrate
+754,MED64,apple pectin
+755,MED65,oregano oil
+756,MED66,aluminium hydroxide
+757,MED67,dimeticone
+758,MED68,red yeast rice
+759,MED69,dextran 40
+760,MED70,amikacin
+761,MED71,lubiprostone
+762,MED72,efavirenz
+763,MED73,voriconazole
+764,MED74,levocetirizine
+765,MED75,gentamicin sulfate
+766,MED76,methimazole
+767,MED77,ginseng extract
+768,MED78,nicotinamide
+769,MED79,prochlorperazine
+770,MED80,filgrastim
+771,MED81,vitamin k (obsolete)
+772,MED82,milk thistle
+773,MED83,"hyaluronidase, human"
+774,MED84,calcium (as phosphate)
+775,MED85,pegaspargase
+776,MED86,levalbuterol
+777,MED87,"epoetin alfa,recombinant"
+778,MED88,trimethobenzamide
+779,MED89,"coal tar,crude"
+780,MED90,modafinil
+781,MED91,tofacitinib
+782,MED92,almotriptan
+783,MED93,oprelvekin
+784,MED94,ramipril
+785,MED95,azacitidine
+786,MED96,bicyclo
+787,MED97,carbamide peroxide
+788,MED98,sevoflurane
+789,MED99,anagrelide
+790,MED100,peginterferon alfa-2a
+791,MED101,peginterferon alfa-2b
+792,MED102,amphotericin b
+793,MED103,n-(hydroxyethyl)ethylenediaminetriacetic acid
+794,MED104,golden seal root
+795,MED105,pomalidomide
+796,MED106,lomustine
+797,MED107,golden seal
+798,MED108,turmeric extract
+799,MED109,telavancin
+800,MED110,crotalus atrox antivenin
+801,MED111,carboprost
+802,MED112,hydroxyethylstarch
+803,MED113,caffeine
+804,MED114,"4, 4'diaminophenyl sulfone"
+805,MED115,bendamustine
+806,MED116,cadexomer iodine
+807,MED117,alprazolam
+808,MED118,tiopronin
+809,MED119,astragalus root extract
+810,MED120,pramlintide
+811,MED121,ecallantide
+812,MED122,quinapril
+813,MED123,albendazole
+814,MED124,"l-cysteinamide, d-phenylalanyl-l-cysteinyl-l-phenylalanyl-d-tryptophyl-l-lysyl-l-threonyl-n- (2-hydroxy-1- (hydroxymethyl) propyl) -, cyclic (2-7) -disulfide, (r- (r *, r *) ) -"
+815,MED125,solifenacin
+816,MED126,polydatin
+817,MED127,darifenacin
+818,MED128,clopidogrel bisulfate
+819,MED129,"insulin,pork reg. concentrate"
+820,MED130,nivolumab
+821,MED131,collagenase clostridium hist.
+822,MED132,leflunomide
+823,MED133,nitroprusside
+824,MED134,benzoic acid
+825,MED135,topiramate
+826,MED136,betamethasone
+827,MED137,zopiclone
+828,MED138,methylene blue
+829,MED139,"1,2,6-hexanetriol"
+830,MED140,hypochlorite
+831,MED141,candesartan
+832,MED142,thiamine (vit b1)
+833,MED143,corticorelin ovine
+834,MED144,clorazepate
+835,MED145,calcium glycerophosphate
+836,MED146,amiloride
+837,MED147,"3-((l-menthyl)oxy)propane-1,2-diol"
+838,MED148,cupric oxide
+839,MED149,albumin human
+840,MED150,lorazepam
+841,MED151,cyproheptadine
+842,MED152,cetrorelix
+843,MED153,dong quai root extract
+844,MED154,idarubicin
+845,MED155,gly
+846,MED156,triptorelin (obsolete)
+847,MED157,temazepam
+848,MED158,tranexamic acid
+849,MED159,cholestyramine
+850,MED160,salmeterol
+851,MED161,darunavir
+852,MED162,phenacemide
+853,MED163,nedocromil
+854,MED164,human immunoglobulin
+855,MED165,magnesium trisilicate
+856,MED166,clonidine
+857,MED167,insulin zinc human semi-syn
+858,MED168,phendimetrazine
+859,MED169,balsam peru
+860,MED170,acetamide
+861,MED171,penciclovir
+862,MED172,calcipotriol
+863,MED173,"haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine"
+864,MED174,potassium chloride
+865,MED175,propiolactone
+866,MED176,copper sulf (obsolete)
+867,MED177,felbamate
+868,MED178,black cohosh root
+869,MED179,bosentan
+870,MED180,echinacea
+871,MED181,boceprevir
+872,MED182,nortriptyline
+873,MED183,nitrofurantoin
+874,MED184,gentamicins
+875,MED185,inositol
+876,MED186,exenatide
+877,MED187,trisulfapyrimidines
+878,MED188,riociguat
+879,MED189,leucovorin
+880,MED190,bifidobacterium longum
+881,MED191,meningococcal polysaccharide vaccine group c
+882,MED192,crotamiton
+883,MED193,bacillus coagulans
+884,MED194,psyllium
+885,MED195,aloe polysaccharide
+886,MED196,iloprost
+887,MED197,goserelin (obsolete)
+888,MED198,dutasteride
+889,MED199,lactobacillus rhamnosus gg
+890,MED200,fondaparinux
+891,MED201,valerian root
+892,MED202,methyl salicylate
+893,MED203,metformin
+894,MED204,alendronate
+895,MED205,sodium iodide
+896,MED206,denosumab
+897,MED207,phytosterol
+898,MED208,chlorhexidine
+899,MED209,tenofovir
+900,MED210,entacapone
+901,MED211,"influenza virus vaccine, h1n1"
+902,MED212,deferiprone
+903,MED213,procaine
+904,MED214,"2-propenoic acid, 3-"
+905,MED215,lovastatin
+906,MED216,oxymorphone
+907,MED217,isotretinoin
+908,MED218,efinaconazole
+909,MED219,linaclotide
+910,MED220,quinidine
+911,MED221,paricalcitol
+912,MED222,piperazine
+913,MED223,wheat germ oil
+914,MED224,everolimus
+915,MED225,ticagrelor
+916,MED226,ferrous gluconate
+917,MED227,ceftazidime
+918,MED228,ranolazine
+919,MED229,berberine
+920,MED230,methenamine
+921,MED231,lapatinib
+922,MED232,alcaftadine
+923,MED233,dronabinol
+924,MED234,"insulin glargine,hum.rec.anlog"
+925,MED235,loteprednol etabonate
+926,MED236,hydrocodone
+927,MED237,anti-d (rh) immunoglobulin
+928,MED238,silver sulfadiazine
+929,MED239,aripiprazole
+930,MED240,metoprolol
+931,MED241,decitabine
+932,MED242,ciclopirox
+933,MED243,mirtazapine
+934,MED244,mannitol
+935,MED245,shark cartilage
+936,MED246,eucalyptus oil
+937,MED247,daptomycin
+938,MED248,amoxapine
+939,MED249,argipressin
+940,MED250,fenofibrate
+941,MED251,"acellular pertussis vaccine, inactivated"
+942,MED252,saxagliptin
+943,MED253,desloratadine
+944,MED254,eicosapentaenoate
+945,MED255,"bioflavonoid, lemon"
+946,MED256,fludarabine
+947,MED257,quetiapine
+948,MED258,rifamycin
+949,MED259,cimetidine
+950,MED260,atorvastatin
+951,MED261,boron citrate
+952,MED262,"butanedioic acid,"
+953,MED263,clocortolone
+954,MED264,carboxymethylcellulose
+955,MED265,lysine
+956,MED266,ceftolozane
+957,MED267,nalorphine
+958,MED268,fluticasone
+959,MED269,gemcitabine
+960,MED270,warfarin
+961,MED271,naloxegol
+962,MED272,methanol
+963,MED273,digoxin
+964,MED274,bifidobacterium infantis
+965,MED275,ketoconazole
+966,MED276,sodium picosulfate
+967,MED277,rotigotine
+968,MED278,varicella-zoster virus vaccine live (oka-merck) strain
+969,MED279,enalaprilat
+970,MED280,vinorelbine
+971,MED281,mercaptopurine
+972,MED282,calcium lactate
+973,MED283,griseofulvin
+974,MED284,iron oxide saccharated
+975,MED285,exemestane
+976,MED286,coffee fruit preparation
+977,MED287,gamma-linolenate
+978,MED288,deferasirox
+979,MED289,emtricitabine
+980,MED290,pyridostigmine
+981,MED291,roflumilast
+982,MED292,retigabine
+983,MED293,latanoprost
+984,MED294,ibandronate
+985,MED295,calcitriol
+986,MED296,certolizumab pegol
+987,MED297,threonine
+988,MED298,hydroxyzine
+989,MED299,aquacobalamin
+990,MED300,korean ginseng root extract
+991,MED301,vitamin d3
+992,MED302,morphine
+993,MED303,ceftaroline fosamil
+994,MED304,astragalus root
+995,MED305,meningococcal polysaccharides y
+996,MED306,"insulin, regular, beef / pork"
+997,MED307,lindane
+998,MED308,"(all-z)-4,7,10,13,16-docosapentaenoic acid,"
+999,MED309,manganese
+1000,MED310,aminocaproic acid
+1001,MED311,sorafenib
+1002,MED312,magnesium aspartate
+1003,MED313,methadone
+1004,MED314,lactate
+1005,MED315,rasburicase
+1006,MED316,eptifibatide
+1007,MED317,duloxetine
+1008,MED318,methoxsalen
+1009,MED319,amphotericin b liposome
+1010,MED320,letrozole
+1011,MED321,vancomycin
+1012,MED322,sertraline
+1013,MED323,fingolimod
+1014,MED324,"insulin,lispro,human/rdna"
+1015,MED325,epinephrine
+1016,MED326,delavirdine
+1017,MED327,treprostinil
+1018,MED328,vitamin b
+1019,MED329,palifermin
+1020,MED330,dibutyldithiocarbamate
+1021,MED331,mesalazine
+1022,MED332,ergocalciferol
+1023,MED333,sucralfate
+1024,MED334,paracetamol
+1025,MED335,aluminium chloride
+1026,MED336,4-aminobenzoate
+1027,MED337,eflornithine
+1028,MED338,protease
+1029,MED339,ramucirumab
+1030,MED340,ranibizumab
+1031,MED341,sodium
+1032,MED342,onabotulinumtoxina
+1033,MED343,vidarabine
+1034,MED344,eprosartan
+1035,MED345,28
+1036,MED346,tazarotene
+1037,MED347,oxaprozin
+1038,MED348,nystatin
+1039,MED349,guaifenesin
+1040,MED350,cascara sagrada extract
+1041,MED351,"estrogens,esterified"
+1042,MED352,caspofungin
+1043,MED353,magnesium glycinate
+1044,MED354,antihemophilic factor viii
+1045,MED355,romiplostim
+1046,MED356,amfetamine
+1047,MED357,polyethylene glycol 400
+1048,MED358,magnesium carbonate
+1049,MED359,propionamide
+1050,MED360,mequinol
+1051,MED361,sargramostim
+1052,MED362,acetylcysteine (obsolete)
+1053,MED363,desmopressin
+1054,MED364,cyclophosphamide
+1055,MED365,elderberry fruit
+1056,MED366,pyrazinamide
+1057,MED367,ivermectin
+1058,MED368,ezetimibe
+1059,MED369,epoprostenol
+1060,MED370,natamycin
+1061,MED371,alvimopan
+1062,MED372,celecoxib
+1063,MED373,novolog mix
+1064,MED374,"collagen, hydrolyzed"
+1065,MED375,"hepatitis b virus vaccine,recb"
+1066,MED376,maca extract
+1067,MED377,acetic acid
+1068,MED378,histidine
+1069,MED379,hawthorn extract
+1070,MED380,insulin nph human semi-syn
+1071,MED381,abatacept
+1072,MED382,umeclidinium
+1073,MED383,aflibercept
+1074,MED384,alprostadil
+1075,MED385,cider vinegar
+1076,MED386,calcium glucarate
+1077,MED387,etynodiol
+1078,MED388,quercetin
+1079,MED389,leuprolide (obsolete)
+1080,MED390,podophyllotoxin
+1081,MED391,dextromethorphan
+1082,MED392,novolin
+1083,MED393,losartan
+1084,MED394,procyanidolic oligomers
+1085,MED395,anidulafungin
+1086,MED396,oxaliplatin
+1087,MED397,eculizumab
+1088,MED398,somatropin
+1089,MED399,prasugrel
+1090,MED400,nicotine
+1091,MED401,cetirizine
+1092,MED402,azelate
+1093,MED403,"influenza a virus vaccine, a-victoria-361-2011 (h3n2)-like virus"
+1094,MED404,vitamin d
+1095,MED405,bortezomib
+1096,MED406,furosemide
+1097,MED407,ruxolitinib
+1098,MED408,calcium gluconate
+1099,MED409,alfuzosin
+1100,MED410,nateglinide
+1101,MED411,doxorubicin liposomal
+1102,MED412,alosetron
+1103,MED413,phentermine
+1104,MED414,drospirenone
+1105,MED415,human secretin
+1106,MED416,canakinumab
+1107,MED417,methotrexate
+1108,MED418,fluvastatin
+1109,MED419,doxazosin
+1110,MED420,progesterone
+1111,MED421,glutamine
+1112,MED422,potassium gluconate
+1113,MED423,pirbuterol
+1114,MED424,"antihemoph.fviii,b-domain trn"
+1115,MED425,thiophene
+1116,MED426,teriparatide
+1117,MED427,thrombin
+1118,MED428,nicotinic acid
+1119,MED429,pravastatin
+1120,MED430,ivacaftor
+1121,MED431,propranolol
+1122,MED432,asenapine
+1123,MED433,acetate salt
+1124,MED434,degarelix
+1125,MED435,tetanus immunoglobulin
+1126,MED436,calcium (as carbonate)
+1127,MED437,"1-(4-(4-chlorophenyl)-3-phenyl-2-butenyl)-pyrrolidine 1,5-naphthalenedisulfonate"
+1128,MED438,kava extract
+1129,MED439,pantothenic acid
+1130,MED440,bicalutamide
+1131,MED441,lurasidone
+1132,MED442,cladribine
+1133,MED443,eszopiclone
+1134,MED444,sodium thiosulfate
+1135,MED445,remifentanil
+1136,MED446,magnesium acid citrate
+1137,MED447,phenyl salicylate
+1138,MED448,esmolol
+1139,MED449,metoclopramide
+1140,MED450,sodium cit (obsolete)
+1141,MED451,etanercept
+1142,MED452,etonogestrel
+1143,MED453,grape seed
+1144,MED454,nelfinavir
+1145,MED455,methyldopa (levorotatory)
+1146,MED456,belimumab
+1147,MED457,terbinafine
+1148,MED458,adalimumab
+1149,MED459,follitropin alfa
+1150,MED460,aminobenzoic acid
+1151,MED461,witch hazel
+1152,MED462,slippery elm bark
+1153,MED463,hypromellose
+1154,MED464,dexamethasone
+1155,MED465,hepatitis b immunoglobulin
+1156,MED466,potassium hydroxide
+1157,MED467,ferric carboxymaltose
+1158,MED468,pentosan polysulfate
+1159,MED469,insulin lispro protamine
+1160,MED470,metaxalone
+1161,MED471,ledipasvir
+1162,MED472,zinc picolinate
+1163,MED473,calcium threonate
+1164,MED474,fluvoxamine
+1165,MED475,jodum
+1166,MED476,magnesium salicylate
+1167,MED477,gabapentin
+1168,MED478,dornase alfa
+1169,MED479,bupropion
+1170,MED480,dinoprostone
+1171,MED481,rimantadine
+1172,MED482,phytomenadione
+1173,MED483,zeaxanthin extract
+1174,MED484,glucagon
+1175,MED485,benzatropine
+1176,MED486,travoprost
+1177,MED487,cyclopenta
+1178,MED488,sunitinib
+1179,MED489,thioctate
+1180,MED490,pyrrole
+1181,MED491,ghrh
+1182,MED492,digitalis leaf
+1183,MED493,ascorbic acid (vit c)
+1184,MED494,"insulin,regular,beef/purified"
+1185,MED495,meningococcal polysaccharide vaccine group a
+1186,MED496,mecasermin rinfabate
+1187,MED497,cisatracurium
+1188,MED498,rabeprazole
+1189,MED499,hepatitis a virus
+1190,MED500,ciprofloxacin
+1191,MED501,colistin
+1192,MED502,lanolin
+1193,MED503,calcium acetate
+1194,MED504,sertaconazole
+1195,MED505,clobetasol
+1196,MED506,bromfenac
+1197,MED507,fomepizole
+1198,MED508,cefprozil
+1199,MED509,"influenza b virus vaccine, b-brisbane-60-2008-like virus"
+1200,MED510,esomeprazole
+1201,MED511,interferon beta
+1202,MED512,levothyroxine
+1203,MED513,castor oil
+1204,MED514,gemfibrozil
+1205,MED515,enfuvirtide
+1206,MED516,glucose
+1207,MED517,etidronate
+1208,MED518,fexofenadine
+1209,MED519,bleomycin
+1210,MED520,nitro
+1211,MED521,bismuth subsalicylate
+1212,MED522,potassium nitrate
+1213,MED523,"loratadine, micronized"
+1214,MED524,ritonavir
+1215,MED525,axitinib
+1216,MED526,glutamic acid
+1217,MED527,feverfew extract
+1218,MED528,serotonin
+1219,MED529,oritavancin
+1220,MED530,danazol
+1221,MED531,estropipate
+1222,MED532,formaldehyde
+1223,MED533,cytarabine liposomal
+1224,MED534,cosyntropin
+1225,MED535,drotrecogin alfa (activated)
+1226,MED536,"carbamothioic acid, methyl"
+1227,MED537,fosamprenavir
+1228,MED538,red clover extract
+1229,MED539,piroxicam
+1230,MED540,polysaccharides
+1231,MED541,silodosin
+1232,MED542,glibenclamide
+1233,MED543,saquinavir
+1234,MED544,clioquinol
+1235,MED545,cysteine
+1236,MED546,spinosad
+1237,MED547,prednisolone tebutate
+1238,MED548,"insulin regular,human buffered"
+1239,MED549,tolcapone
+1240,MED550,pumpkin seed oil
+1241,MED551,isoniazid
+1242,MED552,attapulgite
+1243,MED553,nifedipine
+1244,MED554,"calcitonin,salmon,synthetic"
+1245,MED555,cobamamide
+1246,MED556,mumps virus
+1247,MED557,vilazodone
+1248,MED558,vinblastine
+1249,MED559,green tea extract
+1250,MED560,ginger
+1251,MED561,magnesium lactate
+1252,MED562,emedastine
+1253,MED563,ethotoin
+1254,MED564,aliskiren
+1255,MED565,rilpivirine
+1256,MED566,glycopyrronium bromide
+1257,MED567,apple cider vinegar
+1258,MED568,carfilzomib
+1259,MED569,tenofovir disoproxil
+1260,MED570,ustekinumab
+1261,MED571,ubidecarenone
+1262,MED572,diazepam
+1263,MED573,lisdexamfetamine
+1264,MED574,tretinoin
+1265,MED575,chia seed oil
+1266,MED576,riboflavin (vit b2)
+1267,MED577,fluzone
+1268,MED578,benzethonium
+1269,MED579,metirosine
+1270,MED580,tiotropium bromide
+1271,MED581,sodium sulfate
+1272,MED582,levofloxacin
+1273,MED583,famciclovir
+1274,MED584,naproxen
+1275,MED585,proguanil
+1276,MED586,pramipexole
+1277,MED587,diastase
+1278,MED588,citrulline
+1279,MED589,bumetanide
+1280,MED590,etravirine
+1281,MED591,carbidopa
+1282,MED592,clobazam
+1283,MED593,homatropine
+1284,MED594,prednisone
+1285,MED595,sodium polystyrene sulfonate
+1286,MED596,clonazepam
+1287,MED597,pygeum africanum
+1288,MED598,methylphenidate
+1289,MED599,sotalol
+1290,MED600,insulin detemir
+1291,MED601,iron (as polysaccharide complex)
+1292,MED602,doxylamine
+1293,MED603,interferon beta-1a
+1294,MED604,halobetasol
+1295,MED605,zinc
+1296,MED606,asparaginase
+1297,MED607,acarbose
+1298,MED608,simethicone
+1299,MED609,selenious acid
+1300,MED610,droxidopa
+1301,MED611,horse chestnut seed extract
+1302,MED612,promegestone
+1303,MED613,lithium aspartate
+1304,MED614,guar gum
+1305,MED615,dofetilide
+1306,MED616,insulin glulisine
+1307,MED617,echinacea purp aerial prt xt
+1308,MED618,zinc oxide
+1309,MED619,pembrolizumab
+1310,MED620,"ethanamine, n, n-dimethyl-2-"
+1311,MED621,lacosamide
+1312,MED622,lenalidomide
+1313,MED623,phenylephrine
+1314,MED624,docosahexaenoate
+1315,MED625,nefazodone
+1316,MED626,insulin zinc extend human rec
+1317,MED627,morpholine
+1318,MED628,yohimbine
+1319,MED629,desvenlafaxine
+1320,MED630,lidocaine (obsolete)
+1321,MED631,dabigatran etexilate
+1322,MED632,salbutamol
+1323,MED633,levonorgestrel
+1324,MED634,eletriptan
+1325,MED635,olive leaf
+1326,MED636,beclomethasone
+1327,MED637,cilastatin
+1328,MED638,calcium ascorbate
+1329,MED639,aloe vera extract
+1330,MED640,cetuximab
+1331,MED641,trichloroacetaldehyde
+1332,MED642,mupirocin
+1333,MED643,tobramycin
+1334,MED644,abiraterone
+1335,MED645,butamben
+1336,MED646,trametinib
+1337,MED647,enzalutamide
+1338,MED648,sipuleucel-t
+1339,MED649,erythromycin base
+1340,MED650,lactobacillus acidophilus
+1341,MED651,"ethanamine, 2-"
+1342,MED652,tolterodine
+1343,MED653,interferon alfa-2a
+1344,MED654,methylcellulose
+1345,MED655,calcium chloride
+1346,MED656,vemurafenib
+1347,MED657,magnesium oxide
+1348,MED658,cupric chloride
+1349,MED659,ursodeoxycholate
+1350,MED660,diphosphonate
+1351,MED661,vorinostat
+1352,MED662,tulobuterol
+1353,MED663,crotalus scutulatus antivenin
+1354,MED664,influenza b virus
+1355,MED665,elvitegravir
+1356,MED666,dexbrompheniramine
+1357,MED667,vardenafil
+1358,MED668,iron dextran complex
+1359,MED669,fluorometholone
+1360,MED670,menadione
+1361,MED671,rosuvastatin
+1362,MED672,butabarbital
+1363,MED673,petiveria alliacea preparation
+1364,MED674,brimonidine
+1365,MED675,clopidogrel
+1366,MED676,physostigmine
+1367,MED677,polyethylene glycol 3350
+1368,MED678,magaldrate
+1369,MED679,sevelamer
+1370,MED680,benazepril
+1371,MED681,zafirlukast
+1372,MED682,tipranavir
+1373,MED683,simcor
+1374,MED684,oxymetazoline
+1375,MED685,clavulanate
+1376,MED686,pentaerithrityl tetranitrate
+1377,MED687,bromocriptine
+1378,MED688,green tea leaves
+1379,MED689,famotidine
+1380,MED690,collagenase
+1381,MED691,influenza a virus
+1382,MED692,pancuronium
+1383,MED693,ginseng root
+1384,MED694,corticotropin
+1385,MED695,varicella/zoster immunoglobulin
+1386,MED696,dalteparin
+1387,MED697,enoxaparin
+1388,MED698,soybean oil
+1389,MED699,potassium acetate
+1390,MED700,4-nitrophenyl
+1391,MED701,atomoxetine
+1392,MED702,vincristine
+1393,MED703,icatibant
+1394,MED704,anti-inhibitor coagulant comp.
+1395,MED705,salicylamide
+1396,MED706,vitamin b6
+1397,MED707,dodecyl sulfate
+1398,MED708,lopinavir
+1399,MED709,hydrogen peroxide
+1400,MED710,diflorasone
+1401,MED711,resveratrol
+1402,MED712,alanine
+1403,MED713,polypodium leucotomos
+1404,MED714,pot cit (obsolete)
+1405,MED715,norelgestromin
+1406,MED716,nesiritide (hbnp)
+1407,MED717,methylprednisolone
+1408,MED718,benzonatate
+1409,MED719,valsartan
+1410,MED720,cat's claw
+1411,MED721,isosorbide
+1412,MED722,dexlansoprazole
+1413,MED723,dyclonine
+1414,MED724,racepinephrine
+1415,MED725,torsemide
+1416,MED726,risperidone
+1417,MED727,plantago seed
+1418,MED728,"mineral oil,heavy"
+1419,MED729,ticlopidine
+1420,MED730,pralatrexate
+1421,MED731,linoleate
+1422,MED732,siberian ginseng root
+1423,MED733,glipizide
+1424,MED734,calcium polycarbophil
+1425,MED735,alemtuzumab
+1426,MED736,afatinib
+1427,MED737,lymphocyte immune globulin
+1428,MED738,propionic acid
+1429,MED739,methionine
+1430,MED740,bupivacaine liposome
+1431,MED741,omeprazole
+1432,MED742,cinacalcet
+1433,MED743,fluconazole
+1434,MED744,lisinopril
+1435,MED745,casanthranol
+1436,MED746,"insulin,aspart,human/rdna"
+1437,MED747,csa-cyclosporin a
+1438,MED748,cilostazol
+1439,MED749,sibutramine
+1440,MED750,dihydroxyaluminum sodium carb
+1441,MED751,raltegravir
+1442,MED752,hydrochlorothiazide
+1443,MED753,phentolamine
+1444,MED754,fidaxomicin
+1445,MED755,cephalexin
+1446,MED756,sitagliptin
+1447,MED757,vitamin
+1448,MED758,carboplatin
+1449,MED759,conivaptan
+1450,MED760,glycyrrhiza (obsolete)
+1451,MED761,rivaroxaban
+1452,MED762,sodium bicarb (obsolete)
+1453,MED763,cinnamon bark extract
+1454,MED764,lecithin
+1455,MED765,sodium fluoride
+1456,MED766,difluprednate
+1457,MED767,benzalkonium
+1458,MED768,venlafaxine
+1459,MED769,carbinoxamine
+1460,MED770,polyethylene oxide
+1461,MED771,mycophenolic acid
+1462,MED772,lipase
+1463,MED773,miconazole
+1464,MED774,hyoscyamine
+1465,MED775,ascorbate sodium
+1466,MED776,becaplermin
+1467,MED777,donepezil
+1468,MED778,pazopanib
+1469,MED779,"cys-tyr-ile-gln-asn-cys-pro-leu-gly-nh2, cyclic 1-6 disulfide"
+1470,MED780,amoxicillin
+1471,MED781,pot bicarb (obsolete)
+1472,MED782,butalbital
+1473,MED783,clidinium
+1474,MED784,topotecan
+1475,MED785,doxercalciferol
+1476,MED786,misoprostol
+1477,MED787,acetylsalicylic acid
+1478,MED788,ondansetron
+1479,MED789,measles virus preparation
+1480,MED790,vanadyl sulfate
+1481,MED791,rasagiline
+1482,MED792,linseed
+1483,MED793,liver-stomach concentrate
+1484,MED794,clarithromycin
+1485,MED795,arsenic trioxide
+1486,MED796,pitavastatin
+1487,MED797,lanthanum carbonate
+1488,MED798,agkistrodon piscivorus antivenin
+1489,MED799,paraffin
+1490,MED800,sumatriptan
+1491,MED801,dibenzo
+1492,MED802,guaiacolsulfonate
+1493,MED803,ethyl chloride
+1494,MED804,pau d'arco extract
+1495,MED805,antithrombin iii
+1496,MED806,levomilnacipran
+1497,MED807,azelastine
+1498,MED808,chlorpheniramine
+1499,MED809,ricinoleate
+1500,MED810,benzocaine
+1501,MED811,rosiglitazone
+1502,MED812,tetracaine
+1503,MED813,ether
+1504,MED814,hyaluronate
+1505,MED815,busulfan
+1506,MED816,magnesium amino acid chelate
+1507,MED817,dexrazoxane
+1508,MED818,frovatriptan
+1509,MED819,taurine
+1510,MED820,talc
+1511,MED821,sulfonamide
+1512,MED822,parachlorometaxylenol
+1513,MED823,tiotropium
+1514,MED824,rubella virus
+1515,MED825,nebivolol
+1516,MED826,hydroxypropyl cellulose
+1517,MED827,avibactam
+1518,MED828,selenium sulfide
+1519,MED829,antirabies serum
+1520,MED830,colestipol
+1521,MED831,milk thistle fruit extract
+1522,MED832,mometasone
+1523,MED833,vecuronium
+1524,MED834,desoximetasone
+1525,MED835,levetiracetam
+1526,MED836,glyceryl trinitrate
+1527,MED837,phenytoin
+1528,MED838,penicillamine
+1529,MED839,kava root
+1530,MED840,pioglitazone
+1531,MED841,tocilizumab
+1532,MED842,lactobacillus sp
+1533,MED843,methylnaltrexone
+1534,MED844,ixabepilone
+1535,MED845,clomiphene
+1536,MED846,ciclosporin
+1537,MED847,lactobacillus bifidus
+1538,MED848,carbamazepine
+1539,MED849,amlodipine
+1540,MED850,dihydroergotamine
+1541,MED851,"mineral oil, light"
+1542,MED852,budipine hcl
+1543,MED853,carvedilol
+1544,MED854,edoxaban
+1545,MED855,liraglutide
+1546,MED856,lamotrigine
+1547,MED857,foscarnet
+1548,MED858,ipratropium
+1549,MED859,black cohosh extract
+1550,MED860,dicycloverine
+1551,MED861,sodium morrhuate
+1552,MED862,all-trans-retinol
+1553,MED863,anakinra (obsolete)
+1554,MED864,hydroxyethyl starch 130-0.4
+1555,MED865,luteinizing hormone
+1556,MED866,vinylbital
+1557,MED867,paregoric
+1558,MED868,isopropanol
+1559,MED869,"6, 14-ethenomorphinan-7-methanol, 17-"
+1560,MED870,sildenafil
+1561,MED871,pyridoxine (vit b6)
+1562,MED872,humulin
+1563,MED873,spironolactone
+1564,MED874,sinecatechins
+1565,MED875,irinotecan
+1566,MED876,micafungin
+1567,MED877,ropinirole
+1568,MED878,zolmitriptan
+1569,MED879,magnesium gluconate
+1570,MED880,"heparin,porcine"
+1571,MED881,gamboge
+1572,MED882,lepirudin
+1573,MED883,wheat dextrin
+1574,MED884,azathioprine
+1575,MED885,timolol
+1576,MED886,ergotamine
+1577,MED887,methohexital
+1578,MED888,bacitracin
+1579,MED889,irbesartan
+1580,MED890,dibasic sod ph (obsolete)
+1581,MED891,alclometasone
+1582,MED892,abacavir
+1583,MED893,sodium acet (obsolete)
+1584,MED894,poloxamer
+1585,MED895,zinc acetate
+1586,MED896,cevimeline
+1587,MED897,promethazine
+1588,MED898,hydromorphone
+1589,MED899,epigallocatechin gallate
+1590,MED900,bifidobacterium lactis
+1591,MED901,pimecrolimus
+1592,MED902,erlotinib
+1593,MED903,daclatasvir
+1594,MED904,ferric na gluconate
+1595,MED905,"insulin protamine zinc,beef"
+1596,MED906,ergoloid mesylates
+1597,MED907,tacrolimus
+1598,MED908,copper gluconate
+1599,MED909,isometheptene
+1600,MED910,amyl nitrite
+1601,MED911,vismodegib
+1602,MED912,sirolimus
+1603,MED913,thyrotropin
+1604,MED914,mycophenolate mofetil
+1605,MED915,infliximab
+1606,MED916,golden seal extract
+1607,MED917,"5, 12-naphthacenedione, 8-acetyl-10-"
+1608,MED918,lamivudine
+1609,MED919,desonide
+1610,MED920,magnesium chloride
+1611,MED921,lithium
+1612,MED922,calamine
+1613,MED923,docosanol
+1614,MED924,brinzolamide
+1615,MED925,"sodium phosphate,m-basic m-hyd"
+1616,MED926,dolasetron
+1617,MED927,disopyramide
+1618,MED928,zinc (as zinc gluconate)
+1619,MED929,zoledronic acid
+1620,MED930,scutellaria
+1621,MED931,triamcinolone
+1622,MED932,budesonide
+1623,MED933,evening primrose oil
+1624,MED934,dabrafenib
+1625,MED935,beclomethasone dipropionate
+1626,MED936,ertapenem
+1627,MED937,ropivacaine
+1628,MED938,citric acid
+1629,MED939,amiodarone
+1630,MED940,zaleplon
+1631,MED941,hydroxychloroquine
+1632,MED942,minocycline
+1633,MED943,"insulin, isophane"
+1634,MED944,digoxin immune fab
+1635,MED945,cocoa butter
+1636,MED946,calcium glubionate
+1637,MED947,sodium oxybate
+1638,MED948,dexchlorpheniramine
+1639,MED949,protamine sulfate
+1640,MED950,deanol
+1641,MED951,memantine
+1642,MED952,cod liver oil
+1643,MED953,codeine
+1644,MED954,doxycycline
+1645,MED955,"estrogens,conj.,synthetic b"
+1646,MED956,saccharomyces boulardii lyo
+1647,MED957,crizotinib
+1648,MED958,glycerin (obsolete)
+1649,MED959,hydroquinone
+1650,MED960,nintedanib
+1651,MED961,mineral oil
+1652,MED962,temsirolimus
+1653,MED963,fluocinonide
+1654,MED964,escitalopram
+1655,MED965,"estrogens,conj.,synthetic a"
+1656,MED966,cisplatin
+1657,MED967,balsalazide
+1658,MED968,"petrolatum,white"
+1659,MED969,levorphanol
+1660,MED970,acai fruit
+1661,MED971,omega-3 acid ethyl esters
+1662,MED972,brentuximab vedotin
+1663,MED973,gemtuzumab ozogamicin
+1664,MED974,"sodium phosphate,monobasic"
+1665,MED975,triflusal
+1666,MED976,formoterol
+1667,MED977,tilactase
+1668,MED978,loperamide
+1669,MED979,megestrol
+1670,MED980,lanreotide
+1671,MED981,bazedoxifene
+1672,MED982,conjugated estrogens
+1673,MED983,argatroban
+1674,MED984,ciclesonide
+1675,MED985,phenoxybenzamine
+1676,MED986,dulaglutide
+1677,MED987,glycine urologic solution
+1678,MED988,dolutegravir
+1679,MED989,fentanyl
+1680,MED990,human papillomavirus
+1681,MED991,benzoate
+1682,MED992,fosinopril
+1683,MED993,valacyclovir
+1684,MED994,medroxyprogesterone
+1685,MED995,aclidinium
+1686,MED996,piperacillin
+1687,MED997,crotalus adamanteus antivenin
+1688,MED998,tramadol
+1689,MED999,panitumumab
+1690,MED1000,alteplase
+1691,MED1001,albiglutide
+1692,MED1002,capecitabine
+1693,MED1003,carbamic acid
+1694,MED1004,flunisolide
+1695,MED1005,prednisolone
+1696,MED1006,"8-quinolinol, 5, 7-diiodo-"
+1697,MED1007,apixaban
+1698,MED1008,vasopressin
+1699,MED1009,diphenhydramine
+1700,MED1010,trospium
+1701,MED1011,activated charcoal
+1702,MED1012,thyroid (obsolete)
+1703,MED1013,korean ginseng root
+1704,MED1014,buspirone
+1705,MED1015,etoposide
+1706,MED1016,"3,7-dimethyloctane-1,7-diol"
+1707,MED1017,valine
+1708,MED1018,sorbitol
+1709,MED1019,invokana
+1710,MED1020,oseltamivir
+1711,MED1021,phosphatidyl serine
+1712,MED1022,ranitidine
+1713,MED1023,ethinylestradiol
+1714,MED1024,ubiquinone
+1715,MED1025,abarelix
+1716,MED1026,rizatriptan
+1717,MED1027,deslanoside
+1718,MED1028,rivastigmine
+1719,MED1029,ziconotide
+1720,MED1030,ipilimumab
+1721,MED1031,dichloralphenazone
+1722,MED1032,oxcarbazepine
+1723,MED1033,atazanavir
+1724,MED1034,raloxifene
+1725,MED1035,papain
+1726,MED1036,serine
+1727,MED1037,glucosamine
+1728,MED1038,paclitaxel
+1729,MED1039,aldesleukin
+1730,MED1040,sodium gluconate
+1731,MED1041,polymyxin b
+1732,MED1042,pyrethrins
+1733,MED1043,phenelzine
+1734,MED1044,"phospholipids,egg"
+1735,MED1045,butenafine
+1736,MED1046,prilocaine
+1737,MED1047,bifidobacterium bifidum
+1738,MED1048,ferrous sulfate
+1739,MED1049,phenylalanine
+1740,MED1050,hydrocortisone
+1741,MED1051,etodolac
+1742,MED1052,diclofenac
+1743,MED1053,imatinib
+1744,MED1054,ibuprofen
+1745,MED1055,acebutolol
+1746,MED1056,benzphetamine
+1747,MED1057,neomycin
+1748,MED1058,ingenol mebutate
+1749,MED1059,hexachlorophene
+1750,MED1060,indole
+1751,MED1061,magnesium salt
+1752,MED1062,nilotinib
+1753,MED1063,ethosuximide
+1754,MED1064,benzodiazepine
+1755,MED1065,pantoprazole
+1756,MED1066,hydroxycarbamide
+1757,MED1067,daclizumab
+1758,MED1068,estradiol
+1759,MED1069,nitrate
+1760,MED1070,liver extract
+1761,MED1071,meclozine
+1762,MED1072,saccharomyces boulardii
+1763,MED1073,isocarboxazid
+1764,MED1074,cangrelor
+1765,MED1075,imidazole
+1766,MED1076,coagulation factor viia
+1767,MED1077,olanzapine
+1768,MED1078,magnesium hydroxide
+1769,MED1079,arformoterol
+1770,MED1080,clofarabine
+1771,MED1081,isohexadecane
+1772,MED1082,cyanocobalamin
+1773,MED1083,"80, polysorbate"
+1774,MED1084,entecavir
+1775,MED1085,sodium phosphate
+1776,MED1086,tazobactam
+1777,MED1087,borage
+1778,MED1088,teriflunomide
+1779,MED1089,bivalirudin
+1780,MED1090,alpha-1-proteinase inhibitor
+1781,MED1091,erythro
+1782,MED1092,testosterone
+1783,MED1093,olmesartan
+1784,MED1094,ubiquinol
+1785,MED1095,doxorubicin liposome
+1786,MED1096,posaconazole
+1787,MED1097,"immune globulin,gamma(igg)"
+1788,MED1098,bimatoprost
+1789,MED1099,meprobamate
+1790,MED1100,magnesium sulfate
+1791,MED1101,finasteride
+1792,MED1102,linezolid
+1793,MED1103,scopolamine
+1794,MED1104,"heparin,beef"
+1795,MED1105,fosaprepitant
+1796,MED1106,telaprevir
+1797,MED1107,trypsin
+1798,MED1108,lutein extract
+1799,MED1109,bevacizumab
+1800,MED1110,eltrombopag
+1801,MED1111,aminobutyrate
+1802,MED1112,chromium picolinate
+1803,MED1113,dronedarone
+1804,MED1114,aluminum acetate
+1805,MED1115,erythropoietin
+1806,MED1116,docosaenoic acid
+1807,MED1117,dipyridamole
+1808,MED1118,hyaluronidase
+1809,MED1119,basiliximab
+1810,MED1120,fructose
+1811,MED1121,cefepime
+1812,MED1122,s-adenosylmethionine
+1813,MED1123,cyclobenzaprine
+1814,MED1124,montelukast
+1815,MED1125,hylan g-f 20
+1816,MED1126,prednicarbate
+1817,MED1127,carbachol
+1818,MED1128,colesevelam
+1819,MED1129,indole-2-carboxylic acid
+1820,MED1130,isoleucine
+1821,MED1131,bean pod extract
+1822,MED1132,aprepitant
+1823,MED1133,benzimidazole
+1824,MED1134,ethacrynate
+1825,MED1135,dimethyl sulfoxide
+1826,MED1136,dextran 70
+1827,MED1137,prazosin
+1828,MED1138,colchicine
+1829,MED1139,reserpine
+1830,MED1140,sincalide
+1831,MED1141,gramicidin
+1832,MED1142,acetazolamide
+1833,MED1143,benzoyl peroxide
+1834,MED1144,flutamide
+1835,MED1145,gentisic acid
+1836,MED1146,zonisamide
+1837,MED1147,valganciclovir
+1838,MED1148,oxyquinoline
+1839,MED1149,uridine
+1840,MED1150,zolpidem
+1841,MED1151,meloxicam
+1842,MED1152,albumin
+1843,MED1153,rifaximin
+1844,MED1154,tyrosine
+1845,MED1155,dasatinib
+1846,MED1156,phosphoric acid
+1847,MED1157,vedolizumab
+1848,MED1158,dextroamphetamine
+1849,MED1159,potassium
+1850,MED1160,biperiden
+1851,MED1161,propafenone
+1852,MED1162,peginesatide
+1853,MED1163,acamprosate
+1854,MED1164,metronidazole
+1855,MED1165,spirulina (obsolete)
+1856,MED1166,golimumab
+1857,MED1167,triamterene
+1858,MED1168,rituximab
+1859,MED1169,tryptophan
+1860,MED1170,mafenide
+1861,MED1171,acetanilide
+1862,MED1172,bupivacaine
+1863,MED1173,fosfomycin
+1864,MED1174,chromic chloride hexahydrate
+1865,MED1175,pregabalin
+1866,MED1176,mefenamate
+1867,MED1177,enalapril
+1868,MED1178,ethylenediamine
+1869,MED1179,pamabrom
+1870,MED1180,bee pollen
+1871,MED1181,doxorubicin
+1872,MED1182,belladonna alkaloids
+1873,MED1183,palivizumab
+1874,MED1184,ferrous asparto glycinate
+1875,MED1185,streptococcus pneumoniae
+1876,MED1186,adenosine
+1877,MED1187,methylcobalamin
+1878,MED1188,saw palmetto extract
+1879,MED1189,5-bromo-6-
+1880,MED1190,"aziridine, 1, 1', 1''-phosphinothioylidynetris-"
+1881,MED1191,docusate
+1882,MED1192,pomegranate extract
+1883,MED1193,vitamin k 2
+1884,MED1194,paroxetine
+1885,MED1195,echinacea angustifolia extract
+1886,MED1196,chamomile flowers
+1887,MED1197,anastrozole
+1888,MED1198,cytarabine
+1889,MED1199,iron succinyl-protein complex
+1890,MED1200,royal jelly
+1891,MED1201,pertuzumab
+1892,MED1202,milk thistle fruit
+1893,MED1203,insulin degludec
+1894,MED1204,ibutilide
+1895,MED1205,fludroxycortide
+1896,MED1206,follitropin (fsh)
+1897,MED1207,moxifloxacin
+1898,MED1208,inulin
+1899,MED1209,colloidal oatmeal
+1900,MED1210,orlistat
+1901,MED1211,tadalafil
+1902,MED1212,suprofen
+1903,MED1213,glutamate
+1904,MED1214,olopatadine
+1905,MED1215,factor ix
+1906,MED1216,carisoprodol
+1907,MED1217,zinc chloride
+1908,MED1218,hydralazine
+1909,MED1219,corynebacterium diphtheriae
+1910,MED1220,lansoprazole
+1911,MED1221,nelarabine
+1912,MED1222,diltiazem
+1913,MED1223,gluconolactone
+1914,MED1224,xylitol
+1915,MED1225,leucine
+1916,MED1226,atovaquone
+1917,MED1227,ramelteon
+1918,MED1228,paliperidone
+1919,MED1229,phenol
+1920,MED1230,acetaminophen
+1921,MED1231,atropine
+1922,MED1232,ziprasidone
+1923,MED1233,simvastatin
+1924,MED1234,fluocinolone
+1925,MED1235,baclofen
+1926,MED1236,ambenonium
+1927,MED1237,ferumoxides
+1928,MED1238,neisseria meningitidis
+1929,MED1239,echinacea purpurea extract
+1930,MED1240,salsalate
+1931,MED1241,zinc sulfate
+1932,MED1242,glatiramer
+1933,MED1243,meningococcal polysaccharides w-135
+1934,MED1244,valproate
+1935,MED1245,chlordiazepoxide
+1936,MED1246,fludrocortisone
+1937,MED1247,mirabegron
+1938,MED1248,dihydrocodeine
+1939,MED1249,triethanolamine salicylate
+1940,MED1250,carbonyl iron
+1941,MED1251,cg-chorionic gonadotrophin
+1942,MED1252,disulfiram
+1943,MED1253,ginger root
+1944,MED1254,tamsulosin
+1945,MED1255,interferon gamma-1b
+1946,MED1256,tizanidine hydrochloride
+1947,MED1257,methscopolamine
+1948,MED1258,aztreonam
+1949,MED1259,bexarotene
+1950,MED1260,cobicistat
+1951,MED1261,actonel
+1952,MED1262,calcium citrate
+1953,MED1263,dalbavancin
+1954,MED1264,levodopa
+1955,MED1265,esomeprazole mag
+1956,MED1266,dexmethylphenidate
+1957,MED1267,salicylic acid
+1958,MED1268,clindamycin
+1959,MED1269,intrinsic factor
+1960,MED1270,"linoleic acid, conjugated"
+1961,days,Length of stay
+1962,label,AKI vs nonAKI
